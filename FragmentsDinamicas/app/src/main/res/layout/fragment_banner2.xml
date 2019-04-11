@@ -1,0 +1,17 @@
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:background="#ff0000"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/banner_02_2"
+        android:textColor="#fff"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20sp"/>
+
+</LinearLayout>
