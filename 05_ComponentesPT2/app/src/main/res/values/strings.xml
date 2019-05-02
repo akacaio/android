@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">mob_06-ComponentesPT2</string>
+    <string name="selecione">CheckBox</string>
+    <string name="Salvar">Salvar</string>
+    <string name="checkboxselected">CheckBox selecionado</string>
+    <string name="atlmg">Atlético Mineiro</string>
+    <string name="bahia">Bahia</string>
+    <string name="criciuma">Criciuma</string>
+    <string name="fla">Flamengo</string>
+    <string name="spfc">São Paulo</string>
+    <string name="usjda">União São João de Araras</string>
+    <string name="noteam">Nenhum time selecionado!</string>
+</resources>

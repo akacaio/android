@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <ImageView
+        android:layout_width="156dp"
+        android:layout_height="156dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/p1"
+        android:id="@+id/img1"
+        android:paddingBottom="15dp"/>
+    
+    <ImageView
+        android:layout_width="156dp"
+        android:layout_height="156dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/p2"
+        android:id="@+id/img2"
+        android:paddingBottom="15dp"/>
+
+    <Button
+        android:layout_width="155dp"
+        android:layout_height="75dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Inverter"
+        android:id="@+id/btnInverter"
+        android:onClick="inverter"/>
+    
+    
+</LinearLayout>

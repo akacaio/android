@@ -1,0 +1,65 @@
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/selecione"
+        android:id="@+id/selectBox"
+        />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rdgTimes">
+
+        <RadioButton
+            style="@style/FIAPRadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/atlmg"
+            android:id="@+id/rdbAtlmg"/>
+        <RadioButton
+            style="@style/FIAPRadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/bahia"
+            android:id="@+id/rdbBahia"/>
+        <RadioButton
+            style="@style/FIAPRadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/criciuma"
+            android:id="@+id/rdbCriciuma"/>
+        <RadioButton
+            style="@style/FIAPRadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/fla"
+            android:id="@+id/rdbFla"/>
+        <RadioButton
+            style="@style/FIAPRadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/spfc"
+            android:id="@+id/rdbSpfc"/>
+        <RadioButton
+            style="@style/FIAPRadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/usjda"
+            android:id="@+id/rdbUsjda"
+            />
+    </RadioGroup>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Salvar"
+        android:text="@string/Salvar"
+        android:onClick="check"/>
+
+</LinearLayout>

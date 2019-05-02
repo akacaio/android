@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Internacionalização</string>
+    <string name="nome">Nome</string>
+    <string name="email" translatable="false">E-mail</string>
+    <string name="celular">Celular</string>
+    <string name="endereco">Endereço</string>
+    <string name="cep">CEP</string>
+    <string name="salvar">Salvar</string>
+
+</resources>
