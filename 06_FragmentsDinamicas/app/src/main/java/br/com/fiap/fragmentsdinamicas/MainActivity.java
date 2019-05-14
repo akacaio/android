@@ -22,10 +22,11 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void alterarFragment(Fragment fragment){
+
         getSupportFragmentManager()
                 .beginTransaction()
                 .replace(R.id.fragmentContainer, fragment)
                 .addToBackStack(null)
                 .commit();
+        }
     }
-}

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#E91E2F"
+    android:padding="30dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        style="@style/fordgt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ford_gt"/>
+
+    <TextView
+        style="@style/fordgt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/fabricante_ford"/>
+
+    <TextView
+        style="@style/fordgt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lancamento_ford"/>
+
+</LinearLayout>

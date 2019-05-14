@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">nac03_Fragments</string>
+    <string name="berlinetta">Berlinetta 410</string>
+    <string name="fabricante_berlinetta"><b>Fabricante:</b> Ferrari</string>
+    <string name="lancamento_berlinetta"><b>Lançamento:</b> 1955</string>
+    <string name="selecao_carro">Selecione o Carro:</string>
+    <string name="ford_gt">Ford GT</string>
+    <string name="fabricante_ford"><b>Fabricante:</b> Ford</string>
+    <string name="lancamento_ford"><b>Lançamento:</b> 2004</string>
+    <string name="mercedes_se">Mercedes SE</string>
+    <string name="fabricante_mercedes"><b>Fabricante:</b> Mercedes Benz</string>
+    <string name="lancamento_mercedes"><b>Lançamento:</b> 1960</string>
+    <string name="lamborghini">Lamborghini Miura</string>
+    <string name="fabricante_lamborghini"><b>Fabricante:</b> Lamborghini S.p.A</string>
+    <string name="lancamento_lamborghini"><b>Lançamento:</b> 1967</string>
+</resources>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ExercicioProva</string>
+    <string name="hamburguer1">BigMac</string>
+    <string name="cardapio">Cardápio</string>
+    <string name="hamburguer2">McCheddar</string>
+    <string name="hamburguer3">McRoyale</string>
+    <string name="addons">Acompanhamentos</string>
+    <string name="invalidRequest">Pedido inválido.</string>
+</resources>

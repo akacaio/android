@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:background="#4CAF50"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        style="@style/berlinetta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/berlinetta"
+        android:id="@+id/c_berlinetta" />
+
+    <TextView
+        style="@style/berlinetta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/fabricante_berlinetta" />
+
+    <TextView
+        style="@style/berlinetta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lancamento_berlinetta" />
+
+</LinearLayout>

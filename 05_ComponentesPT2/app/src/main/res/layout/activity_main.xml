@@ -11,6 +11,20 @@
         android:id="@+id/selectBox"
         />
 
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/selecione"
+        android:id="@id/selectBox"
+        />
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/selecione"
+        android:id="@id/selectBox"
+        />
+
     <RadioGroup
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

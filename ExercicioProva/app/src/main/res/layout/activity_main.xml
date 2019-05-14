@@ -1,0 +1,77 @@
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:textColor="#ff0000"
+        android:text="@string/cardapio"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lanches">
+
+        <RadioButton
+            style="@style/CheckBoxStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hamburguer1"
+            android:buttonTint="#fff"
+            />
+
+        <RadioButton
+            style="@style/CheckBoxStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hamburguer2"
+            android:buttonTint="#fff"/>
+
+        <RadioButton
+            style="@style/CheckBoxStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hamburguer3"
+            android:buttonTint="#fff"/>
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/addons"
+        android:textSize="18dp"
+        android:textColor="#FF0000"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="5dp"/>
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ovo"
+        android:id="@+id/ovo"
+        android:buttonTint="#2196F3"/>
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bacon"
+        android:id="@+id/bacon"/>
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hamburguer (150g)"
+        android:id="@+id/hmbg"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/botao"
+        android:text="Fazer Pedido"
+        android:onClick="realizarPedido"/>
+
+</LinearLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#3F51B5"
+    android:padding="30dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        style="@style/mercedes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mercedes_se"/>
+
+    <TextView
+        style="@style/mercedes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/fabricante_mercedes"/>
+
+    <TextView
+        style="@style/mercedes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lancamento_mercedes"/>
+
+
+
+</LinearLayout>
