@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/selecao_carro"
+        android:textSize="24dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/infosCarro"
+        android:layout_alignParentBottom="true"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/menuCarro"
+        android:paddingTop="30dp">
+
+    <ImageButton
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/lamborghini"
+        android:id="@+id/lambo"
+        android:onClick="infosLamborghini"
+        android:layout_weight="1"
+        android:adjustViewBounds="true"/>
+
+    <ImageButton
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/berlinetta"
+        android:id="@+id/berlinetta"
+        android:onClick="infosBerlinetta"
+        android:layout_weight="1"
+        android:adjustViewBounds="true"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/menuCarro">
+
+        <ImageButton
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/ford"
+            android:id="@+id/fordgt"
+            android:onClick="infosFord"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            />
+
+        <ImageButton
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/mercedes"
+            android:id="@+id/mercedes"
+            android:onClick="infoMercedes"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"/>
+    </LinearLayout>
+
+
+</RelativeLayout>
+
+--- FRAGMENT
+
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:background="#4CAF50"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        style="@style/berlinetta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/berlinetta"
+        android:id="@+id/c_berlinetta" />
+
+    <TextView
+        style="@style/berlinetta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/fabricante_berlinetta" />
+
+    <TextView
+        style="@style/berlinetta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lancamento_berlinetta" />
+
+</LinearLayout>
